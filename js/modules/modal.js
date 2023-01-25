@@ -17,7 +17,6 @@ export default class initModal {
     this.containerModal.classList.toggle('ativo');
     }
 
-    
    //adiciona o evento de toogle no modal 
     eventToggleModal(event){
       event.preventDefault();
@@ -25,7 +24,6 @@ export default class initModal {
 
     }
 
-    
     // Fecha o modal ao clicar do lado de fora 
    cliqueForaModal(event) {
     if (event.target === this.containerModal) {
